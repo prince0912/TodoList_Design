@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: darkblue;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+  color: rgba(229, 238, 238, 0.993);
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.Title {
+  color: white;
+  font-weight: 900;
+}
+
+.add_itme {
+  align-items: center;
+}
+
+.input-box {
+  margin: 1rem;
+  width: 50vw;
+  height: 10vh;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(216, 229, 230);
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.btn {
+  margin: 10px 0px 20px 10px;
+  width: 20vw;
+  height: 10vh;
+  border-radius: 25px;
+  background-color: darkblue;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.list_display {
+  align-items: center;
+  color: green;
+  border: 3px solid blueviolet;
+
+  -webkit-box-shadow: -19px 19px 35px -6px rgba(66, 59, 66, 0.75);
+  -moz-box-shadow: -19px 19px 35px -6px rgba(66, 59, 66, 0.75);
+  box-shadow: -19px 19px 35px -6px rgba(66, 59, 66, 0.75);
+}
+
+.order {
+  list-style: none;
+}
+
+.list_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  display: flex;
+  flex-direction: color;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 20vw;
+  height: 7vh;
+  margin: 1rem 0rem 0.5rem 0rem;
+  border: 2px solid rgb(65, 74, 88);
+  background-color: rgb(214, 199, 199);
+  color: rgba(3, 5, 12, 0.925);
+
+  -webkit-box-shadow: inset -16px -15px 16px -9px rgba(66, 59, 66, 0.77);
+  -moz-box-shadow: inset -16px -15px 16px -9px rgba(66, 59, 66, 0.77);
+  box-shadow: inset -16px -15px 16px -9px rgba(66, 59, 66, 0.77);
+}
+
+.BtnDen {
+  width: 15vw;
+  height: 7vh;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-left: 1rem;
+  border: 3px solid rgb(3, 12, 3);
+}
